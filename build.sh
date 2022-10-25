@@ -21,7 +21,6 @@ do
     cp -r $CDIR/$f $build_dir/
 done
 
-cp ~/.local/share/omg/themes/* $build_dir/omf-conf
 
 cd $build_dir
 
@@ -34,5 +33,7 @@ else
   echo You should install git to build: https://duckduckgo.com/?q=install+git+on+linux
   exit 1
 fi
+
+cp ~/.local/share/omg/themes/* oh-my-fish
 
 rm -rf .git
