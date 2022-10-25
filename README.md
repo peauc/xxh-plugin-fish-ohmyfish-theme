@@ -9,11 +9,11 @@ If you like the idea click ⭐ on the repo and stay tuned.
 ## Install
 Install from xxh repo:
 ```
-xxh +I xxh-plugin-fish-ohmyfish
+xxh +I xxh-plugin-fish-ohmyfish-theme
 ```
 Install from any repo:
 ```
-XXH +I xxh-plugin-fish-ohmyfish+git+https://github.com/xxh/xxh-plugin-fish-ohmyfish
+XXH +I xxh-plugin-fish-ohmyfish+git+https://github.com/peauc/xxh-plugin-fish-ohmyfish-theme
 ```
 Connect:
 ``` 

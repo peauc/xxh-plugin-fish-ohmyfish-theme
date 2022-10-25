@@ -21,6 +21,8 @@ do
     cp -r $CDIR/$f $build_dir/
 done
 
+cp ~/.local/share/omg/themes/* $build_dir/omf-conf
+
 cd $build_dir
 
 [ $QUIET ] && arg_q='-q' || arg_q=''
